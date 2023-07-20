@@ -22,7 +22,6 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
@@ -45,14 +44,14 @@
 <details>
   <summary>Server</summary>
   <ul>
-    <li></li>
+    <li><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
   </ul>
 </details>
 
 <details>
 <summary>Database</summary>
   <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li></li>
   </ul>
 </details>
 
@@ -60,9 +59,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[create patients table]**
-- **[create all the necessary foreign keys]**
-- **[Create a many to many relational table]**
+- **[Decode morse codes]**
+- **[words decoding]**
+- **[Senteces decoding]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -85,7 +84,7 @@ In order to run this project you need:
 Example command:
 
 ```sh
- Install PostgreSQL
+ Install Ruby
 ```
 
 ### Setup
@@ -94,7 +93,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone https://github.com/ab-noori/clinic.git
+  git clone https://github.com/ab-noori/Marse-Code-Decoder.git
 ```
 
 ### Install
@@ -103,7 +102,7 @@ Install this project with:
 
 ```sh
   cd my-folder
-  git clone https://github.com/ab-noori/clinic.git
+  git clone https://github.com/ab-noori/Marse-Code-Decoder.git
 ```
 
 ### Usage
@@ -112,7 +111,7 @@ To run the project, execute the following command:
 
 ```sh
   cd my-folder
-  git clone https://github.com/ab-noori/clinic.git
+  git clone https://github.com/ab-noori/Marse-Code-Decoder.git
 ```
 
 ### Run tests
@@ -155,8 +154,8 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Normalize the database]**
-- [ ] **[Displaying data on a UI]**
+- [ ] **[Adding possibility ro decode numbers]**
+- [ ] **[Creating UI so users can decode Morse codes]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -166,7 +165,7 @@ You can deploy this project using:
 
   Contributions, issues, and feature requests are welcome!
 
-  Feel free to check the [issues page](https://github.com/ab-noori/clinic/issues).
+  Feel free to check the [issues page](https://github.com/ab-noori/Marse-Code-Decoder/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -183,22 +182,6 @@ You can deploy this project using:
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
   First, I would like to thank Microverse and my coding partners.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-- **How to optimize database performance?**
-
-  - Use indexes on frequently queried columns to improve search speed.
-  - Normalize the database structure to minimize data redundancy and improve data integrity.
-
-- **How to ensure database security?**
-
-  - Implement proper authentication and authorization mechanisms to control access to the database.
-  - Regularly update and patch the database software to address security vulnerabilities.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
