@@ -16,3 +16,9 @@ end
 def self.decode_word(morse_word)
   morse_word.split.map { |morse_char| decode_char(morse_char) }.join
 end
+
+def self.decode_message(morse_message)
+  morse_words = morse_message.split("   ")
+  decoded_words = morse_words.map { |morse_word| decode_word(morse_word) }
+  decoded_words.join(" ")
+end
