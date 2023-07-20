@@ -23,6 +23,7 @@ class MorseDecoder
   end
 end
 
+# Test with the provided Morse code message
 morse_message = ".-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ..."
 decoded_message = MorseDecoder.decode_message(morse_message)
 puts decoded_message
